@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["Say","This command allows for propagation of normal chat messages through out the network."]]});

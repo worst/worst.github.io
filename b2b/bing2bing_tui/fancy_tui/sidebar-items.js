@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["Event",""],["InputMode",""],["MenuItem",""]],"fn":[["build_chunks",""],["draw",""],["get_input_box",""],["get_input_mode_message",""],["start",""],["start_peer",""]],"struct":[["App",""],["Shared",""],["State",""]],"type":[["UiClientRxChannel",""],["UiClientTxChannel",""]]});
