@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["libb2b"] = [{"text":"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/std/error/trait.Error.html\" title=\"trait std::error::Error\">Error</a> for <a class=\"enum\" href=\"libb2b/parse/enum.ParseError.html\" title=\"enum libb2b::parse::ParseError\">ParseError</a>","synthetic":false,"types":["libb2b::parse::ParseError"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

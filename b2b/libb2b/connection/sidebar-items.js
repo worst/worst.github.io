@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Connection","A `Connection` handles reading/writing to the network."]],"type":[["Frame",""]]});

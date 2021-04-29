@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["purge_expired_tasks",""]],"struct":[["Entry",""],["Shared",""],["State",""],["TtlMap","This is a `HashMap` like structure that uses [String]s as keys, and any value that is [Clone] and Send. The major feature of this struct is that it allows the user to specify an expiration for the key/value pair."]]});

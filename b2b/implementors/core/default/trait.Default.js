@@ -1,3 +1,4 @@
 (function() {var implementors = {};
 implementors["bing2bing_tui"] = [{"text":"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"bing2bing_tui/fancy_tui/struct.App.html\" title=\"struct bing2bing_tui::fancy_tui::App\">App</a>","synthetic":false,"types":["bing2bing_tui::fancy_tui::App"]}];
+implementors["libb2b"] = [{"text":"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"libb2b/peer_map/struct.PeerMap.html\" title=\"struct libb2b::peer_map::PeerMap\">PeerMap</a>","synthetic":false,"types":["libb2b::peer_map::PeerMap"]}];
 if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

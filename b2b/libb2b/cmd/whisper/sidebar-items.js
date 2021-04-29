@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Whisper","This command allows for direct messaging between two peers. The idea is that peers should forward this message via the shortest path to the target."]]});

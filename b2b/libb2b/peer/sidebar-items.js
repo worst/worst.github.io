@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Peer",""],["PeerData","POINTS AVAILABLE FOR CLEANING THIS UP (renaming/refactoring as needed?) This is a very poorly named structure that wraps the bits of data that come in over an Announce."],["PeerInfo",""]]});
