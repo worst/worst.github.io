@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Deliver","`Deliver` data [Bing2BingFrame::Bulk] to a specific destination (peer)."]]});

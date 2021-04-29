@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Extension","This command serves as a mechanism to enable extensions to the protocol. It is esssentially a wrapper around:"]]});

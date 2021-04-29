@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Client","A `Client` is the way that a user (i.e., a user of our crate) interacts with a Server, and thus the rest of the network.."],["Shared",""]]});
