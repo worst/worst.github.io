@@ -1,0 +1,54 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="Picket Line"><meta name="keywords" content="rust, rustlang, rust-lang, picket_line"><title>picket_line - Rust</title><link rel="stylesheet" type="text/css" href="../normalize.css"><link rel="stylesheet" type="text/css" href="../rustdoc.css" id="mainThemeStyle"><link rel="stylesheet" type="text/css" href="../light.css"  id="themeStyle"><link rel="stylesheet" type="text/css" href="../dark.css" disabled ><link rel="stylesheet" type="text/css" href="../ayu.css" disabled ><script id="default-settings" ></script><script src="../storage.js"></script><script src="../crates.js"></script><noscript><link rel="stylesheet" href="../noscript.css"></noscript><link rel="alternate icon" type="image/png" href="../favicon-16x16.png"><link rel="alternate icon" type="image/png" href="../favicon-32x32.png"><link rel="icon" type="image/svg+xml" href="../favicon.svg"><style type="text/css">#crate-search{background-image:url("../down-arrow.svg");}</style></head><body class="rustdoc mod crate"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="sidebar"><div class="sidebar-menu" role="button">&#9776;</div><a href='../picket_line/index.html'><div class='logo-container rust-logo'><img src='../rust-logo.png' alt='logo'></div></a><h2 class="location">Crate picket_line</h2><div class="block version"><div class="narrow-helper"></div><p>Version 0.1.0</p></div><div class="sidebar-elems"><a id="all-types" href="all.html"><p>See all picket_line's items</p></a><div class="block items"><ul><li><a href="#structs">Structs</a></li><li><a href="#traits">Traits</a></li></ul></div><div id="sidebar-vars" data-name="picket_line" data-ty="mod" data-relpath=""></div><script defer src="sidebar-items.js"></script></div></nav><div class="theme-picker"><button id="theme-picker" aria-label="Pick another theme!" aria-haspopup="menu" title="themes"><img width="18" height="18" alt="Pick another theme!" src="../brush.svg"></button><div id="theme-choices" role="menu"></div></div><nav class="sub"><form class="search-form"><div class="search-container"><div><select id="crate-search"><option value="All crates">All crates</option></select><input class="search-input" name="search" disabled autocomplete="off" spellcheck="false" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"></div><button type="button" id="help-button" title="help">?</button><a id="settings-menu" href="../settings.html" title="settings"><img width="18" height="18" alt="Change settings" src="../wheel.svg"></a></div></form></nav><section id="main" class="content"><h1 class="fqn"><span class="in-band">Crate <a class="mod" href="#">picket_line</a><button id="copy-path" onclick="copy_path(this)" title="Copy item path to clipboard"><img src="../clipboard.svg" width="19" height="18" alt="Copy item path"></button></span><span class="out-of-band"><span id="render-detail"><a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">[<span class="inner">&#x2212;</span>]</a></span><a class="srclink" href="../src/picket_line/lib.rs.html#1-76" title="goto source code">[src]</a></span></h1><details class="rustdoc-toggle top-doc" open><summary class="hideme"><span>Expand description</span></summary><div class="docblock"><h2 id="picket-line" class="section-header"><a href="#picket-line">Picket Line</a></h2>
+<p>Enable <code>/examples</code> in doc generation: <code>cargo +nightly doc -Z unstable-options -Z rustdoc-scrape-examples=examples</code></p>
+<p><code>Picket Line</code> is an <em>asynchronous</em> <a href="https://github.com/contribsys/faktory">Faktory</a> client.
+It is heavily informed by <a href="https://github.com/jonhoo/faktory-rs">faktory-rs</a>, however, it differs significantly in its implementation of the <a href="https://github.com/contribsys/faktory/blob/main/docs/protocol-specification.md">Faktory Work Protocol</a>.
+In short, <code>faktor-rs</code> is a <em>connection per worker</em> implementation whereas <code>Picket Line</code> is an <em>N workers per connection</em> implementation.</p>
+<h3 id="why-picket-line" class="section-header"><a href="#why-picket-line">Why <code>Picket Line</code>?</a></h3>
+<p><code>Picket Line</code> is a core library of <code>iDRAMA.cloud</code>, designed based on our decade+ years of experience rapidly developing social media data collection systems (see, our <a href="https://idrama.science/publications/">publications</a> for reference).
+Our “methodology” for crawlers, at a high level, involves viewing the collection process as a set of discrete, asynchronous jobs.
+As a simple example, imagine that you are building a crawler that will visit a page once a day, and then collect every page linked to from that page.
+I.e., a one level deep crawl of a site.</p>
+<p>While this can be done via a simple loop and a sleep, it could also be done by breaking the problem up into two different sub problems:</p>
+<ol>
+<li>Collecting the main page</li>
+<li>Collecting all the pages that are linked to from the main page</li>
+</ol>
+<p>This can be broken up into <em>jobs</em> as well:</p>
+<ol>
+<li>A job that collects the main page</li>
+<li>A job that collects a (single) page linked to from the main page</li>
+</ol>
+<p>The basic “algorithm” here might be that the main page collection job goes out and retrieves the main page and extracts all the links on it.
+It then issues a (background) job to collect each of those links.
+Finally, the main page collection job schedules itself to run again in 24 hours.</p>
+<p>These (trivial) jobs are overwhelming I/O bound due to HTTP requests.
+In our experience, social media data collection systems are overwhelmingly I/O bound (<em>ADD ANY NECESSARY INTUTION HERE</em>).
+Generally speaking, I/O bound operations is where asynchronous models excel.
+Thus, <code>Picket Line</code>.</p>
+<p>In reality, rapidly developing scalable, continuous social media data collection systems involves building much more complicated work flows than the above example.
+This niche is what <code>Picket Line</code> is designed to fill.</p>
+<h3 id="why-not-picket-line" class="section-header"><a href="#why-not-picket-line">Why <em>not</em> <code>Picket Line</code>?</a></h3>
+<p>Although Picket Line can be run on a multi-threaded async runtime (and the examples use this), there are potential performance pitfalls when doing so.
+For example, it’s generally a rule of thumb that you should never have too much code in between <code>await</code>s.
+This is because asynchronous programming is <em>cooperative</em>; your task will (at a high level) block whatever thread it’s running on until it <code>await</code>s.
+You can work around this by launching a separate thread during execution of a <a href="trait.Jerb.html" title="Jerb">Jerb</a>, however you then have to manage signalling via channels etc.</p>
+<p>In summary, <code>Picket Line</code> might not be the right choice if your jobs are CPU bound.</p>
+<h3 id="concepts" class="section-header"><a href="#concepts">Concepts</a></h3>
+<p><code>Picket Line</code> is somewhat higher level than the Faktory protocol itself, and to demarcate these differences, we use a naming convention that differs from the underlying Faktory concept when necessary.</p>
+<p>Most users of this library are primarily intersted in implementing different types of <a href="trait.Jerb.html" title="Jerb">Jerb</a>s.
+A <a href="trait.Jerb.html" title="Jerb">Jerb</a> differs from a [FaktoryJob] in that it is concerned almost entirely with the <em>execution</em> of a job.
+This includes not just performing the particular work the [FaktoryJob] calls for, but also for handling any additional workflow (e.g., scheduling new [FaktoryJob]s for execution).</p>
+<p>Next, we have <a href="struct.Werker.html" title="Werker">Werker</a>s, which are mostly similar to Faktory’s Worker concept.
+A <a href="struct.Werker.html" title="Werker">Werker</a> has a set of <a href="trait.Jerb.html" title="Jerb">Jerb</a>s that it knows how to perform.
+Multiple <a href="struct.Werker.html" title="Werker">Werker</a>s can operate off of a single connection the Faktory server, and each of them can listen to their own queues and respond to a unique set of <a href="trait.Jerb.html" title="Jerb">Jerb</a>s.</p>
+</div></details><h2 id="structs" class="section-header"><a href="#structs">Structs</a></h2>
+<div class="item-table"><div class="item-row"><div class="item-left module-item"><a class="struct" href="struct.JobRoute.html" title="picket_line::JobRoute struct">JobRoute</a></div><div class="item-right docblock-short"></div></div><div class="item-row"><div class="item-left module-item"><a class="struct" href="struct.PicketLine.html" title="picket_line::PicketLine struct">PicketLine</a></div><div class="item-right docblock-short"></div></div><div class="item-row"><div class="item-left module-item"><a class="struct" href="struct.PicketLineClient.html" title="picket_line::PicketLineClient struct">PicketLineClient</a></div><div class="item-right docblock-short"><p>A basic, high level client that is accessible to <a href="trait.Jerb.html" title="crate::Jerb">crate::Jerb</a>s that are actively executing a job.</p>
+</div></div><div class="item-row"><div class="item-left module-item"><a class="struct" href="struct.Werker.html" title="picket_line::Werker struct">Werker</a></div><div class="item-right docblock-short"><p><a href="struct.Werker.html" title="Werker">Werker</a>s implement the basic functionality of fetching and executing jobs from a Faktory server.</p>
+</div></div></div><h2 id="traits" class="section-header"><a href="#traits">Traits</a></h2>
+<div class="item-table"><div class="item-row"><div class="item-left module-item"><a class="trait" href="trait.Jerb.html" title="picket_line::Jerb trait">Jerb</a></div><div class="item-right docblock-short"><p>This is the main trait that should be implemented for the different job types you want to process
+Of note, is that this trait makes use of the <a href="https://crates.io/crates/async-trait"><code>async_trait</code></a> crate.
+In turn, this means that all implementations of this trait must be annoted with <code>#[async_trait]</code> as well.
+It is also <em>cloneable</em>, making use of the <a href="https://crates.io/crates/dyn-clonable"><code>dyn-clonable</code></a> crate</p>
+</div></div></div></section><section id="search" class="content hidden"></section><div id="rustdoc-vars" data-root-path="../" data-current-crate="picket_line" data-search-index-js="../search-index.js" data-search-js="../search.js"></div>
+    <script src="../main.js"></script>
+</body></html>

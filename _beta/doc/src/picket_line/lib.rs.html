@@ -1,0 +1,156 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="Source of the Rust file `picket-line\src\lib.rs`."><meta name="keywords" content="rust, rustlang, rust-lang"><title>lib.rs - source</title><link rel="stylesheet" type="text/css" href="../../normalize.css"><link rel="stylesheet" type="text/css" href="../../rustdoc.css" id="mainThemeStyle"><link rel="stylesheet" type="text/css" href="../../light.css"  id="themeStyle"><link rel="stylesheet" type="text/css" href="../../dark.css" disabled ><link rel="stylesheet" type="text/css" href="../../ayu.css" disabled ><script id="default-settings" ></script><script src="../../storage.js"></script><script src="../../crates.js"></script><noscript><link rel="stylesheet" href="../../noscript.css"></noscript><link rel="alternate icon" type="image/png" href="../../favicon-16x16.png"><link rel="alternate icon" type="image/png" href="../../favicon-32x32.png"><link rel="icon" type="image/svg+xml" href="../../favicon.svg"><style type="text/css">#crate-search{background-image:url("../../down-arrow.svg");}</style></head><body class="rustdoc source"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="sidebar"><div class="sidebar-menu" role="button">&#9776;</div><a href='../../picket_line/index.html'><div class='logo-container rust-logo'><img src='../../rust-logo.png' alt='logo'></div></a></nav><div class="theme-picker"><button id="theme-picker" aria-label="Pick another theme!" aria-haspopup="menu" title="themes"><img width="18" height="18" alt="Pick another theme!" src="../../brush.svg"></button><div id="theme-choices" role="menu"></div></div><nav class="sub"><form class="search-form"><div class="search-container"><div><select id="crate-search"><option value="All crates">All crates</option></select><input class="search-input" name="search" disabled autocomplete="off" spellcheck="false" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"></div><button type="button" id="help-button" title="help">?</button><a id="settings-menu" href="../../settings.html" title="settings"><img width="18" height="18" alt="Change settings" src="../../wheel.svg"></a></div></form></nav><section id="main" class="content"><div class="example-wrap"><pre class="line-numbers"><span id="1"> 1</span>
+<span id="2"> 2</span>
+<span id="3"> 3</span>
+<span id="4"> 4</span>
+<span id="5"> 5</span>
+<span id="6"> 6</span>
+<span id="7"> 7</span>
+<span id="8"> 8</span>
+<span id="9"> 9</span>
+<span id="10">10</span>
+<span id="11">11</span>
+<span id="12">12</span>
+<span id="13">13</span>
+<span id="14">14</span>
+<span id="15">15</span>
+<span id="16">16</span>
+<span id="17">17</span>
+<span id="18">18</span>
+<span id="19">19</span>
+<span id="20">20</span>
+<span id="21">21</span>
+<span id="22">22</span>
+<span id="23">23</span>
+<span id="24">24</span>
+<span id="25">25</span>
+<span id="26">26</span>
+<span id="27">27</span>
+<span id="28">28</span>
+<span id="29">29</span>
+<span id="30">30</span>
+<span id="31">31</span>
+<span id="32">32</span>
+<span id="33">33</span>
+<span id="34">34</span>
+<span id="35">35</span>
+<span id="36">36</span>
+<span id="37">37</span>
+<span id="38">38</span>
+<span id="39">39</span>
+<span id="40">40</span>
+<span id="41">41</span>
+<span id="42">42</span>
+<span id="43">43</span>
+<span id="44">44</span>
+<span id="45">45</span>
+<span id="46">46</span>
+<span id="47">47</span>
+<span id="48">48</span>
+<span id="49">49</span>
+<span id="50">50</span>
+<span id="51">51</span>
+<span id="52">52</span>
+<span id="53">53</span>
+<span id="54">54</span>
+<span id="55">55</span>
+<span id="56">56</span>
+<span id="57">57</span>
+<span id="58">58</span>
+<span id="59">59</span>
+<span id="60">60</span>
+<span id="61">61</span>
+<span id="62">62</span>
+<span id="63">63</span>
+<span id="64">64</span>
+<span id="65">65</span>
+<span id="66">66</span>
+<span id="67">67</span>
+<span id="68">68</span>
+<span id="69">69</span>
+<span id="70">70</span>
+<span id="71">71</span>
+<span id="72">72</span>
+<span id="73">73</span>
+<span id="74">74</span>
+<span id="75">75</span>
+<span id="76">76</span>
+</pre><pre class="rust"><code><span class="doccomment">//! # Picket Line</span>
+<span class="doccomment">//!</span>
+<span class="doccomment">//! Enable `/examples` in doc generation: `cargo +nightly doc -Z unstable-options -Z rustdoc-scrape-examples=examples`</span>
+<span class="doccomment">//!</span>
+<span class="doccomment">//! `Picket Line` is an _asynchronous_ [Faktory](https://github.com/contribsys/faktory) client.</span>
+<span class="doccomment">//! It is heavily informed by [faktory-rs](https://github.com/jonhoo/faktory-rs), however, it differs significantly in its implementation of the [Faktory Work Protocol](https://github.com/contribsys/faktory/blob/main/docs/protocol-specification.md).</span>
+<span class="doccomment">//! In short, `faktor-rs` is a _connection per worker_ implementation whereas `Picket Line` is an _N workers per connection_ implementation.</span>
+<span class="doccomment">//!</span>
+<span class="doccomment">//! ## Why `Picket Line`?</span>
+<span class="doccomment">//!</span>
+<span class="doccomment">//! `Picket Line` is a core library of `iDRAMA.cloud`, designed based on our decade+ years of experience rapidly developing social media data collection systems (see, our [publications](https://idrama.science/publications/) for reference).</span>
+<span class="doccomment">//! Our &quot;methodology&quot; for crawlers, at a high level, involves viewing the collection process as a set of discrete, asynchronous jobs.</span>
+<span class="doccomment">//! As a simple example, imagine that you are building a crawler that will visit a page once a day, and then collect every page linked to from that page.</span>
+<span class="doccomment">//! I.e., a one level deep crawl of a site.</span>
+<span class="doccomment">//!</span>
+<span class="doccomment">//! While this can be done via a simple loop and a sleep, it could also be done by breaking the problem up into two different sub problems:</span>
+<span class="doccomment">//! 1. Collecting the main page</span>
+<span class="doccomment">//! 2. Collecting all the pages that are linked to from the main page</span>
+<span class="doccomment">//!</span>
+<span class="doccomment">//! This can be broken up into _jobs_ as well:</span>
+<span class="doccomment">//! 1. A job that collects the main page</span>
+<span class="doccomment">//! 2. A job that collects a (single) page linked to from the main page</span>
+<span class="doccomment">//!</span>
+<span class="doccomment">//! The basic &quot;algorithm&quot; here might be that the main page collection job goes out and retrieves the main page and extracts all the links on it.</span>
+<span class="doccomment">//! It then issues a (background) job to collect each of those links.</span>
+<span class="doccomment">//! Finally, the main page collection job schedules itself to run again in 24 hours.</span>
+<span class="doccomment">//!</span>
+<span class="doccomment">//!</span>
+<span class="doccomment">//! These (trivial) jobs are overwhelming I/O bound due to HTTP requests.</span>
+<span class="doccomment">//! In our experience, social media data collection systems are overwhelmingly I/O bound (*ADD ANY NECESSARY INTUTION HERE*).</span>
+<span class="doccomment">//! Generally speaking, I/O bound operations is where asynchronous models excel.</span>
+<span class="doccomment">//! Thus, `Picket Line`.</span>
+<span class="doccomment">//!</span>
+<span class="doccomment">//! In reality, rapidly developing scalable, continuous social media data collection systems involves building much more complicated work flows than the above example.</span>
+<span class="doccomment">//! This niche is what `Picket Line` is designed to fill.</span>
+<span class="doccomment">//!</span>
+<span class="doccomment">//! ## Why _not_ `Picket Line`?</span>
+<span class="doccomment">//!</span>
+<span class="doccomment">//! Although Picket Line can be run on a multi-threaded async runtime (and the examples use this), there are potential performance pitfalls when doing so.</span>
+<span class="doccomment">//! For example, it&#39;s generally a rule of thumb that you should never have too much code in between `await`s.</span>
+<span class="doccomment">//! This is because asynchronous programming is _cooperative_; your task will (at a high level) block whatever thread it&#39;s running on until it `await`s.</span>
+<span class="doccomment">//! You can work around this by launching a separate thread during execution of a [Jerb], however you then have to manage signalling via channels etc.</span>
+<span class="doccomment">//!</span>
+<span class="doccomment">//! In summary, `Picket Line` might not be the right choice if your jobs are CPU bound.</span>
+<span class="doccomment">//!</span>
+<span class="doccomment">//! ## Concepts</span>
+<span class="doccomment">//!</span>
+<span class="doccomment">//! `Picket Line` is somewhat higher level than the Faktory protocol itself, and to demarcate these differences, we use a naming convention that differs from the underlying Faktory concept when necessary.</span>
+<span class="doccomment">//!</span>
+<span class="doccomment">//! Most users of this library are primarily intersted in implementing different types of [Jerb]s.</span>
+<span class="doccomment">//! A [Jerb] differs from a [FaktoryJob] in that it is concerned almost entirely with the _execution_ of a job.</span>
+<span class="doccomment">//! This includes not just performing the particular work the [FaktoryJob] calls for, but also for handling any additional workflow (e.g., scheduling new [FaktoryJob]s for execution).</span>
+<span class="doccomment">//!</span>
+<span class="doccomment">//! Next, we have [Werker]s, which are mostly similar to Faktory&#39;s Worker concept.</span>
+<span class="doccomment">//! A [Werker] has a set of [Jerb]s that it knows how to perform.</span>
+<span class="doccomment">//! Multiple [Werker]s can operate off of a single connection the Faktory server, and each of them can listen to their own queues and respond to a unique set of [Jerb]s.</span>
+<span class="doccomment">//!  </span>
+
+<span class="comment">// use governor::{</span>
+<span class="comment">//     clock::{self, Clock},</span>
+<span class="comment">//     state::{InMemoryState, NotKeyed, StateStore},</span>
+<span class="comment">//     NotUntil, Quota, RateLimiter,</span>
+<span class="comment">// };</span>
+
+<span class="kw">mod</span> <span class="ident">picket_line_client</span>;
+<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">picket_line_client::PicketLineClient</span>;
+
+<span class="kw">mod</span> <span class="ident">picket_line</span>;
+<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">picket_line::PicketLine</span>;
+
+<span class="kw">mod</span> <span class="ident">werker</span>;
+<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">werker::JobRoute</span>;
+<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">werker::Werker</span>;
+
+<span class="kw">mod</span> <span class="ident">jerb</span>;
+<span class="kw">pub</span> <span class="kw">use</span> <span class="ident">jerb::Jerb</span>;
+</code></pre></div>
+</section><section id="search" class="content hidden"></section><div id="rustdoc-vars" data-root-path="../../" data-current-crate="picket_line" data-search-index-js="../../search-index.js" data-search-js="../../search.js"></div>
+    <script src="../../main.js"></script><script src="../../source-script.js"></script><script src="../../source-files.js"></script>
+</body></html>

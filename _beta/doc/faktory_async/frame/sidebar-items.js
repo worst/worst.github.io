@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["FrameError",""],["RequestFrame","Faktory client commands do not use the redis line protocal. Instead they are just regular strings (I think?)"],["ResponseFrame","Faktory responses uses the Redis Wire Protocol. It is unclear to to me from the documentation if the responses are really returning bulk strings or simple strings…"]]});

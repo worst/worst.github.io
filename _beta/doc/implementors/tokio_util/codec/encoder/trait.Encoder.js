@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["faktory_async"] = [{"text":"impl Encoder&lt;<a class=\"enum\" href=\"faktory_async/frame/enum.RequestFrame.html\" title=\"enum faktory_async::frame::RequestFrame\">RequestFrame</a>&gt; for <a class=\"struct\" href=\"faktory_async/struct.FaktoryCodec.html\" title=\"struct faktory_async::FaktoryCodec\">FaktoryCodec</a>","synthetic":false,"types":["faktory_async::faktory_codec::FaktoryCodec"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

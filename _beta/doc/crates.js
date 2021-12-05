@@ -1,0 +1,1 @@
+window.ALL_CRATES = ["faktory_async","picket_line"];
