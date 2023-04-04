@@ -1,0 +1,1322 @@
+# - id: doi:10.1016/j.csbj.2020.05.017
+#   image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+#   date: 2020-6-2
+#   extra-links:
+#     - type: manubot
+#       link: https://greenelab.github.io/knowledge-graph-review/
+#   tags:
+#     - knowledge graphs
+
+# - id: doi:10.1371/journal.pcbi.1007128
+#   image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+#   repo: greenelab/meta-review
+#   extra-links:
+#     - type: manubot
+#       link: https://greenelab.github.io/meta-review/
+#     - type: source
+#       link: https://github.com/greenelab/meta-review
+#     - type: website
+#       link: http://manubot.org/
+
+# - id: doi:10.7554/eLife.32822
+#   image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+#   extra-links:
+#     - type: preprint
+#       link: https://doi.org/10.7287/peerj.preprints.3100v1
+#     - type: manubot
+#       link: https://greenelab.github.io/scihub-manuscript/
+#     - type: source
+#       link: https://github.com/greenelab/scihub-manuscript
+#       text: Manuscript source
+#     - type: source
+#       link: https://github.com/greenelab/scihub
+#       text: Analyses source
+
+
+
+# - title: LAMBRETTA - Learning to Rank for Twitter Soft Moderation
+#   authors:
+#     - Pujan Paudel
+#     - Jeremy Blackburn
+#     - Emiliano De Cristofaro
+#     - Savvas Zannettou
+#     - Gianluca Stringhini
+#   publisher: arXiv
+#   date: "2022-12-12"
+#   link: https://arxiv.org/abs/2212.05926
+
+- authors:
+  - Waiman Si
+  - M. Backes
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - G. Stringhini
+  - Savvas Zannettou
+  - Yang Zhang
+  date: '2022-09-07'
+  link: https://doi.org/10.1145/3548606.3560599
+  publisher: Conference on Computer and Communications Security
+  title: 'Why So Toxic?: Measuring and Triggering Toxic Behavior in Open-Domain Chatbots'
+- authors:
+  - Pujan Paudel
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - Savvas Zannettou
+  - G. Stringhini
+  date: null
+  link: https://doi.org/10.36190/2022.62
+  publisher: ICWSM Workshops
+  title: A Longitudinal Study of the Gettr Social Network
+- authors:
+  - Alexandros Efstratiou
+  - Jeremy Blackburn
+  - T. Caulfield
+  - G. Stringhini
+  - Savvas Zannettou
+  - Emiliano De Cristofaro
+  date: '2022-11-25'
+  link: https://doi.org/10.48550/arXiv.2211.14388
+  publisher: ArXiv
+  title: 'Non-Polar Opposites: Analyzing the Relationship Between Echo Chambers and
+    Hostile Intergroup Interactions on Reddit'
+- authors:
+  - Catherine Jennifer
+  - Fatemeh Tahmasbi
+  - Jeremy Blackburn
+  - G. Stringhini
+  - Savvas Zannettou
+  - Emiliano De Cristofaro
+  date: '2022-02-17'
+  link: https://doi.org/10.36190/2022.65
+  publisher: ICWSM Workshops
+  title: 'Feels Bad Man: Dissecting Automated Hateful Meme Detection Through the Lens
+    of Facebook''s Challenge'
+- authors:
+  - Mohammad Hammas Saeed
+  - Jeremy Blackburn
+  - G. Stringhini
+  date: null
+  link: https://doi.org/10.36190/2022.70
+  publisher: ICWSM Workshops
+  title: 'There are N Impostors Among Us: Understanding the Effect of State-Sponsored
+    Troll Accounts on Reddit Discussions'
+- authors:
+  - Chen Ling
+  - G. Stringhini
+  - Utkucan Balci
+  - Jeremy Blackburn
+  date: '2022-03-01'
+  link: https://doi.org/10.1109/msec.2021.3127392
+  publisher: IEEE Security and Privacy
+  title: A First Look at Zoombombing
+- authors:
+  - Xinyue Shen
+  - Xinlei He
+  - M. Backes
+  - Jeremy Blackburn
+  - Savvas Zannettou
+  - Yang Zhang
+  date: '2022-04-19'
+  link: https://doi.org/10.48550/arXiv.2204.08935
+  publisher: International Conference on Web and Social Media
+  title: On Xing Tian and the Perseverance of Anti-China Sentiment Online
+- authors:
+  - Savvas Zannettou
+  - Michael Sirivianos
+  - Jeremy Blackburn
+  - N. Kourtellis
+  date: null
+  link: null
+  publisher: ''
+  title: 'The Web of False Information: Rumors, Fake News, Hoaxes, Clickbait, and
+    Various Other Shenanigans'
+- authors:
+  - Pujan Paudel
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - Savvas Zannettou
+  - G. Stringhini
+  date: '2022-12-12'
+  link: https://doi.org/10.48550/arXiv.2212.05926
+  publisher: ArXiv
+  title: 'LAMBRETTA: Learning to Rank for Twitter Soft Moderation'
+- authors:
+  - Jeremy Blackburn
+  - Savvas Zannettou
+  date: '2022-03-01'
+  link: https://doi.org/10.1109/mic.2022.3154762
+  publisher: IEEE Internet Computing
+  title: Effect of Social Networking on Real-World Events
+- authors:
+  - Yuping Wang
+  - Savvas Zannettou
+  - Jeremy Blackburn
+  - B. Bradlyn
+  - Emiliano De Cristofaro
+  - G. Stringhini
+  date: '2021-03-05'
+  link: https://doi.org/10.1109/BigData52589.2021.9671843
+  publisher: 2021 IEEE International Conference on Big Data (Big Data)
+  title: A Multi-Platform Analysis of Political News Discussion and Sharing on Web
+    Communities
+- authors:
+  - Ugur Kursuncu
+  - Jeremy Blackburn
+  - Yelena Mejova
+  - Megan Squire
+  - A. Sheth
+  date: null
+  link: https://doi.org/10.36190/2021.81
+  publisher: ICWSM Workshops
+  title: 'Cyber Social Threats 2021: AI, Covid-19 Vaccine, Detection and Countering
+    Strategies'
+- authors:
+  - Periwinkle Doerfler
+  - Andrea Forte
+  - Emiliano De Cristofaro
+  - G. Stringhini
+  - Jeremy Blackburn
+  - Damon McCoy
+  date: '2021-04-22'
+  link: https://doi.org/10.1145/3476082
+  publisher: Proc. ACM Hum. Comput. Interact.
+  title: '"I''m a Professor, which isn''t usually a dangerous job": Internet-facilitated
+    Harassment and Its Impact on Researchers'
+- authors:
+  - Chen Ling
+  - Ihab AbuHilal
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - Savvas Zannettou
+  - G. Stringhini
+  date: '2021-01-16'
+  link: https://doi.org/10.1145/3449155
+  publisher: Proc. ACM Hum. Comput. Interact.
+  title: 'Dissecting the Meme Magic: Understanding Indicators of Virality in Image
+    Memes'
+- authors:
+  - Pujan Paudel
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - Savvas Zannettou
+  - G. Stringhini
+  date: '2021-08-12'
+  link: null
+  publisher: ArXiv
+  title: An Early Look at the Gettr Social Network
+- authors:
+  - Antonis Papasavva
+  - Jeremy Blackburn
+  - G. Stringhini
+  - Savvas Zannettou
+  - Emiliano De Cristofaro
+  date: '2021-04-19'
+  link: https://doi.org/10.1145/3442381.3450036
+  publisher: The Web Conference
+  title: "\u201CIs it a Qoincidence?\u201D: An Exploratory Study of QAnon on Voat"
+- authors:
+  - Shiza Ali
+  - Mohammad Hammas Saeed
+  - Esraa Aldreabi
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - Savvas Zannettou
+  - G. Stringhini
+  date: '2021-06-21'
+  link: https://doi.org/10.1145/3447535.3462637
+  publisher: Web Science Conference
+  title: Understanding the Effect of Deplatforming on Social Networks
+- authors:
+  - M. Aliapoulios
+  - Antonis Papasavva
+  - Cameron L. Ballard
+  - Emiliano De Cristofaro
+  - G. Stringhini
+  - Savvas Zannettou
+  - Jeremy Blackburn
+  date: '2021-01-21'
+  link: https://doi.org/10.1609/icwsm.v16i1.19330
+  publisher: International Conference on Web and Social Media
+  title: 'The Gospel According to Q: Understanding the QAnon Conspiracy from the Perspective
+    of Canonical Information'
+- authors:
+  - Chen Ling
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - G. Stringhini
+  date: '2021-11-03'
+  link: https://doi.org/10.1145/3501247.3531551
+  publisher: Web Science Conference
+  title: 'Slapping Cats, Bopping Heads, and Oreo Shakes: Understanding Indicators
+    of Virality in TikTok Short Videos'
+- authors:
+  - M. Aliapoulios
+  - Emmi Bevensee
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - G. Stringhini
+  - Savvas Zannettou
+  date: '2021-01-11'
+  link: null
+  publisher: ArXiv
+  title: An Early Look at the Parler Online Social Network
+- authors:
+  - Pujan Paudel
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - Savvas Zannettou
+  - G. Stringhini
+  date: '2021-11-03'
+  link: null
+  publisher: ArXiv
+  title: 'Soros, Child Sacrifices, and 5G: Understanding the Spread of Conspiracy
+    Theories on Web Communities'
+- authors:
+  - Mohammad Hammas Saeed
+  - Shiza Ali
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - Savvas Zannettou
+  - G. Stringhini
+  date: '2021-12-01'
+  link: https://doi.org/10.1109/sp46214.2022.9833706
+  publisher: IEEE Symposium on Security and Privacy
+  title: 'TrollMagnifier: Detecting State-Sponsored Troll Accounts on Reddit'
+- authors:
+  - S. B. Yudhoatmojo
+  - Emiliano De Cristofaro
+  - Jeremy Blackburn
+  date: '2021-11-03'
+  link: null
+  publisher: ArXiv
+  title: '"We won''t even challenge their lefty academic definition of racist: " Understanding
+    the Use of e-Prints on Reddit and 4chan'
+- authors:
+  - F. Tahmasbi
+  - L. Schild
+  - Chen Ling
+  - Jeremy Blackburn
+  - G. Stringhini
+  - Yang Zhang
+  - Savvas Zannettou
+  date: '2021-04-19'
+  link: https://doi.org/10.1145/3442381.3450024
+  publisher: The Web Conference
+  title: "\u201CGo eat a bat, Chang!\u201D: On the Emergence of Sinophobic Behavior\
+    \ on Web Communities in the Face of COVID-19"
+- authors:
+  - M. Aliapoulios
+  - Emmi Bevensee
+  - Jeremy Blackburn
+  - B. Bradlyn
+  - Emiliano De Cristofaro
+  - G. Stringhini
+  - Savvas Zannettou
+  date: '2021-01-15'
+  link: https://doi.org/10.5281/ZENODO.4442460
+  publisher: International Conference on Web and Social Media
+  title: A Large Open Dataset from the Parler Social Network
+- authors:
+  - Ugur Kursuncu
+  - Yelena Mejova
+  - Jeremy Blackburn
+  - A. Sheth
+  date: null
+  link: https://doi.org/10.36190/2020.10
+  publisher: ICWSM Workshops
+  title: 'Cyber Social Threats 2020 Workshop Meta-report: COVID-19, Challenges, Methodological
+    and Ethical Considerations'
+- authors:
+  - T. Abdelzaher
+  - Jisun An
+  - Marya Bazzi
+  - Jeremy Blackburn
+  - Ugur Kursuncu
+  - Yelena Mejova
+  - "J\xE9r\xE9mie Rappaz"
+  - Horacio Saggion
+  - Panayiotis Smeros
+  - Sanjaya Wijeratne
+  - Ning Yu
+  date: null
+  link: null
+  publisher: The AI Magazine
+  title: Reports of the Workshops Held at the 2020 International Association for the
+    Advancement of Artificial Intelligence Conference on Web and Social Media
+- authors:
+  - Manoel Horta Ribeiro
+  - Jeremy Blackburn
+  - B. Bradlyn
+  - Emiliano De Cristofaro
+  - G. Stringhini
+  - Summer Long
+  - Stephanie Greenberg
+  - Savvas Zannettou
+  date: '2020-01-21'
+  link: https://doi.org/10.5281/ZENODO.4007913
+  publisher: International Conference on Web and Social Media
+  title: The Evolution of the Manosphere across the Web
+- authors:
+  - Jason Baumgartner
+  - Savvas Zannettou
+  - Brian Keegan
+  - Megan Squire
+  - Jeremy Blackburn
+  date: '2020-01-23'
+  link: https://doi.org/10.5281/ZENODO.3608135
+  publisher: International Conference on Web and Social Media
+  title: The Pushshift Reddit Dataset
+- authors:
+  - Erik C. Rye
+  - Jeremy Blackburn
+  - Robert Beverly
+  date: '2020-09-03'
+  link: https://doi.org/10.1145/3419394.3423615
+  publisher: ACM/SIGCOMM Internet Measurement Conference
+  title: 'Reading In-Between the Lines: An Analysis of Dissenter'
+- authors:
+  - Manoel Horta Ribeiro
+  - Jeremy Blackburn
+  - B. Bradlyn
+  - Emiliano De Cristofaro
+  - G. Stringhini
+  - Summer Long
+  - Stephanie Greenberg
+  - Savvas Zannettou
+  date: '2020-01-21'
+  link: null
+  publisher: ArXiv
+  title: 'From Pick-Up Artists to Incels: A Data-Driven Sketch of the Manosphere'
+- authors:
+  - Manoel Horta Ribeiro
+  - Shagun Jhaver
+  - Savvas Zannettou
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - G. Stringhini
+  - Robert West
+  date: '2020-10-20'
+  link: https://doi.org/10.1145/3476057
+  publisher: Proc. ACM Hum. Comput. Interact.
+  title: Do Platform Migrations Compromise Content Moderation? Evidence from r/The_Donald
+    and r/Incels
+- authors:
+  - Kostantinos Papadamou
+  - Savvas Zannettou
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - G. Stringhini
+  - Michael Sirivianos
+  date: '2020-01-22'
+  link: https://doi.org/10.1145/3479556
+  publisher: Proc. ACM Hum. Comput. Interact.
+  title: '"How over is it?" Understanding the Incel Community on YouTube'
+- authors:
+  - Kostantinos Papadamou
+  - Savvas Zannettou
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - G. Stringhini
+  - Michael Sirivianos
+  date: '2020-01-22'
+  link: null
+  publisher: ArXiv
+  title: Understanding the Incel Community on YouTube
+- authors:
+  - Antonis Papasavva
+  - Savvas Zannettou
+  - Emiliano De Cristofaro
+  - G. Stringhini
+  - Jeremy Blackburn
+  date: '2020-01-21'
+  link: https://doi.org/10.5281/ZENODO.3606810
+  publisher: International Conference on Web and Social Media
+  title: 'Raiders of the Lost Kek: 3.5 Years of Augmented 4chan Posts from the Politically
+    Incorrect Board'
+- authors:
+  - Chen Ling
+  - Utkucan Balci
+  - Jeremy Blackburn
+  - G. Stringhini
+  date: '2020-09-08'
+  link: https://doi.org/10.1109/SP40001.2021.00061
+  publisher: IEEE Symposium on Security and Privacy
+  title: A First Look at Zoombombing
+- authors:
+  - Kostantinos Papadamou
+  - Savvas Zannettou
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - G. Stringhini
+  - Michael Sirivianos
+  date: '2020-10-22'
+  link: null
+  publisher: ArXiv
+  title: 'Pseudoscientific Content on YouTube: Assessing the Effects of Watch History
+    on the Recommendation Algorithm'
+- authors:
+  - Kostantinos Papadamou
+  - Savvas Zannettou
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - G. Stringhini
+  - Michael Sirivianos
+  date: '2020-10-22'
+  link: https://doi.org/10.1609/icwsm.v16i1.19329
+  publisher: International Conference on Web and Social Media
+  title: '"It Is Just a Flu": Assessing the Effect of Watch History on YouTube''s
+    Pseudoscientific Video Recommendations'
+- authors:
+  - L. Schild
+  - Chen Ling
+  - Jeremy Blackburn
+  - G. Stringhini
+  - Yang Zhang
+  - Savvas Zannettou
+  date: '2020-04-08'
+  link: null
+  publisher: ArXiv
+  title: '"Go eat a bat, Chang!": An Early Look on the Emergence of Sinophobic Behavior
+    on Web Communities in the Face of COVID-19'
+- authors:
+  - Jason Baumgartner
+  - Savvas Zannettou
+  - Megan Squire
+  - Jeremy Blackburn
+  date: '2020-01-23'
+  link: https://doi.org/10.5281/ZENODO.3607497
+  publisher: International Conference on Web and Social Media
+  title: The Pushshift Telegram Dataset
+- authors:
+  - Emmi Bevensee
+  - M. Aliapoulios
+  - Quinn Dougherty
+  - Jason Baumgartner
+  - Damon McCoy
+  - Jeremy Blackburn
+  date: null
+  link: https://doi.org/10.36190/2020.18
+  publisher: ICWSM Workshops
+  title: 'SMAT: The Social Media Analysis Toolkit'
+- authors:
+  - Yuping Wang
+  - Fatemeh Tamahsbi
+  - Jeremy Blackburn
+  - B. Bradlyn
+  - Emiliano De Cristofaro
+  - David M. Magerman
+  - Savvas Zannettou
+  - G. Stringhini
+  date: '2020-09-24'
+  link: https://doi.org/10.1609/icwsm.v15i1.18102
+  publisher: International Conference on Web and Social Media
+  title: Understanding the Use of Fauxtography on Social Media
+- authors:
+  - Antonis Papasavva
+  - Jeremy Blackburn
+  - G. Stringhini
+  - Savvas Zannettou
+  - Emiliano De Cristofaro
+  date: '2020-09-10'
+  link: null
+  publisher: ArXiv
+  title: '"Is it a Qoincidence?": A First Step Towards Understanding and Characterizing
+    the QAnon Movement on Voat.co'
+- authors:
+  - Alexandros Mittos
+  - Savvas Zannettou
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  date: '2020-08-25'
+  link: https://doi.org/10.1145/3404994
+  publisher: ACM Transactions on the Web
+  title: Analyzing Genetic Testing Discourse on the Web Through the Lens of Twitter,
+    Reddit, and 4chan
+- authors:
+  - "M\xE1rio Almeida"
+  - Liang Wang
+  - Jeremy Blackburn
+  - K. Papagiannaki
+  - J. Crowcroft
+  date: '2019-06-14'
+  link: null
+  publisher: ArXiv
+  title: 'Diffusing Your Mobile Apps: Extending In-Network Function Virtualization
+    to Mobile Function Offloading'
+- authors:
+  - Alexandros Mittos
+  - Savvas Zannettou
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  date: '2019-01-28'
+  link: https://doi.org/10.1609/icwsm.v14i1.7314
+  publisher: International Conference on Web and Social Media
+  title: '"And We Will Fight For Our Race!" A Measurement Study of Genetic Testing
+    Conversations on Reddit and 4chan'
+- authors:
+  - Kostantinos Papadamou
+  - Antonis Papasavva
+  - Savvas Zannettou
+  - Jeremy Blackburn
+  - N. Kourtellis
+  - I. Leontiadis
+  - G. Stringhini
+  - Michael Sirivianos
+  date: '2019-01-21'
+  link: null
+  publisher: ArXiv
+  title: 'Disturbed YouTube for Kids: Characterizing and Detecting Disturbing Content
+    on YouTube'
+- authors:
+  - Savvas Zannettou
+  - T. Caulfield
+  - B. Bradlyn
+  - Emiliano De Cristofaro
+  - G. Stringhini
+  - Jeremy Blackburn
+  date: '2019-01-17'
+  link: https://doi.org/10.1609/icwsm.v14i1.7342
+  publisher: International Conference on Web and Social Media
+  title: Characterizing the Use of Images in State-Sponsored Information Warfare Operations
+    by Russian Trolls on Twitter
+- authors:
+  - Kostantinos Papadamou
+  - Antonis Papasavva
+  - Savvas Zannettou
+  - Jeremy Blackburn
+  - N. Kourtellis
+  - I. Leontiadis
+  - G. Stringhini
+  - Michael Sirivianos
+  date: '2019-01-21'
+  link: https://doi.org/10.1609/icwsm.v14i1.7320
+  publisher: International Conference on Web and Social Media
+  title: 'Disturbed YouTube for Kids: Characterizing and Detecting Inappropriate Videos
+    Targeting Young Children'
+- authors:
+  - Despoina Chatzakou
+  - I. Leontiadis
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - G. Stringhini
+  - A. Vakali
+  - N. Kourtellis
+  date: '2019-07-20'
+  link: https://doi.org/10.1145/3343484
+  publisher: ACM Transactions on the Web
+  title: Detecting Cyberbullying and Cyberaggression in Social Media
+- authors:
+  - Savvas Zannettou
+  - B. Bradlyn
+  - Emiliano De Cristofaro
+  - G. Stringhini
+  - Jeremy Blackburn
+  date: '2019-01-17'
+  link: null
+  publisher: ArXiv
+  title: Characterizing the Use of Images by State-Sponsored Troll Accounts on Twitter
+- authors:
+  - Savvas Zannettou
+  - T. Caulfield
+  - William Setzer
+  - Michael Sirivianos
+  - G. Stringhini
+  - Jeremy Blackburn
+  date: '2018-11-07'
+  link: https://doi.org/10.1145/3292522.3326016
+  publisher: Web Science Conference
+  title: 'Who Let The Trolls Out?: Towards Understanding State-Sponsored Trolls'
+- authors:
+  - Richard Han
+  - Jeremy Blackburn
+  - Homa Hosseinmardi
+  - Q. Lv
+  - Bert Huang
+  - Shivakant Mishra
+  date: '2018-04-23'
+  link: https://doi.org/10.1145/3184558.3192296
+  publisher: The Web Conference
+  title: International Workshop on Cybersafety Chairs' Welcome & Organization
+- authors:
+  - Antigoni-Maria Founta
+  - Constantinos Djouvas
+  - Despoina Chatzakou
+  - I. Leontiadis
+  - Jeremy Blackburn
+  - G. Stringhini
+  - A. Vakali
+  - Michael Sirivianos
+  - N. Kourtellis
+  date: '2018-02-01'
+  link: https://doi.org/10.5281/ZENODO.3678559
+  publisher: International Conference on Web and Social Media
+  title: Large Scale Crowdsourcing and Characterization of Twitter Abusive Behavior
+- authors:
+  - Enrico Mariconti
+  - Guillermo Suarez-Tangil
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - N. Kourtellis
+  - I. Leontiadis
+  - Jordi Luque Serrano
+  - G. Stringhini
+  date: '2018-05-01'
+  link: null
+  publisher: Proc. ACM Hum. Comput. Interact.
+  title: '"You Know What to Do": Proactive Detection of YouTube Videos Targeted by
+    Coordinated Hate Attacks'
+- authors:
+  - Savvas Zannettou
+  - B. Bradlyn
+  - Emiliano De Cristofaro
+  - Michael Sirivianos
+  - G. Stringhini
+  - Haewoon Kwak
+  - Jeremy Blackburn
+  date: '2018-02-14'
+  link: https://doi.org/10.1145/3184558.3191531
+  publisher: The Web Conference
+  title: 'What is Gab: A Bastion of Free Speech or an Alt-Right Echo Chamber'
+- authors:
+  - Savvas Zannettou
+  - T. Caulfield
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - Michael Sirivianos
+  - G. Stringhini
+  - Guillermo Suarez-Tangil
+  date: '2018-05-31'
+  link: https://doi.org/10.1145/3278532.3278550
+  publisher: ACM/SIGCOMM Internet Measurement Conference
+  title: On the Origins of Memes by Means of Fringe Web Communities
+- authors:
+  - Enrico Mariconti
+  - Guillermo Suarez-Tangil
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - N. Kourtellis
+  - I. Leontiadis
+  - Jordi Luque Serrano
+  - G. Stringhini
+  date: '2018-05-21'
+  link: https://doi.org/10.1145/3359309
+  publisher: Proceedings of the ACM on Human-Computer Interaction
+  title: '"You Know What to Do"'
+- authors:
+  - Lucky Onwuzurike
+  - "M\xE1rio Almeida"
+  - Enrico Mariconti
+  - Jeremy Blackburn
+  - G. Stringhini
+  - Emiliano De Cristofaro
+  date: '2018-03-09'
+  link: null
+  publisher: ArXiv
+  title: 'A Family of Droids: Analyzing Behavioral Model based Android Malware Detection
+    via Static and Dynamic Analysis'
+- authors:
+  - "M\xE1rio Almeida"
+  - Muhammad Bilal
+  - A. Finamore
+  - I. Leontiadis
+  - Y. Grunenberger
+  - Matteo Varvello
+  - Jeremy Blackburn
+  date: '2018-04-10'
+  link: https://doi.org/10.1145/3178876.3186035
+  publisher: The Web Conference
+  title: 'CHIMP: Crowdsourcing Human Inputs for Mobile Phones'
+- authors:
+  - Savvas Zannettou
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - Michael Sirivianos
+  - G. Stringhini
+  date: '2018-01-31'
+  link: https://doi.org/10.1609/icwsm.v12i1.15018
+  publisher: International Conference on Web and Social Media
+  title: Understanding Web Archiving Services and Their (Mis)Use on Social Media
+- authors:
+  - Lucky Onwuzurike
+  - "M\xE1rio Almeida"
+  - Enrico Mariconti
+  - Jeremy Blackburn
+  - G. Stringhini
+  - Emiliano De Cristofaro
+  date: '2018-03-09'
+  link: https://doi.org/10.1109/PST.2018.8514191
+  publisher: Conference on Privacy, Security and Trust
+  title: 'A Family of Droids-Android Malware Detection via Behavioral Modeling: Static
+    vs Dynamic Analysis'
+- authors:
+  - Antigoni-Maria Founta
+  - Despoina Chatzakou
+  - N. Kourtellis
+  - Jeremy Blackburn
+  - A. Vakali
+  - I. Leontiadis
+  date: '2018-02-01'
+  link: https://doi.org/10.1145/3292522.3326028
+  publisher: Web Science Conference
+  title: A Unified Deep Learning Architecture for Abuse Detection
+- authors:
+  - Savvas Zannettou
+  - Michael Sirivianos
+  - Jeremy Blackburn
+  - N. Kourtellis
+  date: '2018-04-10'
+  link: https://doi.org/10.1145/3309699
+  publisher: ACM Journal of Data and Information Quality
+  title: The Web of False Information
+- authors:
+  - A. Ioannou
+  - Jeremy Blackburn
+  - G. Stringhini
+  - Emiliano De Cristofaro
+  - N. Kourtellis
+  - Michael Sirivianos
+  date: '2018-02-08'
+  link: https://doi.org/10.1080/0144929X.2018.1432688
+  publisher: Behavior and Information Technology
+  title: 'From risk factors to detection and intervention: a practical proposal for
+    future work on cyberbullying'
+- authors:
+  - Alexandros Mittos
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  date: '2018-01-30'
+  link: null
+  publisher: ArXiv
+  title: '"23andMe confirms: I''m super white" - Analyzing Twitter Discourse On Genetic
+    Testing'
+- authors:
+  - Savvas Zannettou
+  - T. Caulfield
+  - Emiliano De Cristofaro
+  - Michael Sirivianos
+  - G. Stringhini
+  - Jeremy Blackburn
+  date: '2018-01-28'
+  link: https://doi.org/10.1145/3308560.3316495
+  publisher: The Web Conference
+  title: 'Disinformation Warfare: Understanding State-Sponsored Trolls on Twitter
+    and Their Influence on the Web'
+- authors:
+  - Joel Finkelstein
+  - Savvas Zannettou
+  - B. Bradlyn
+  - Jeremy Blackburn
+  date: '2018-09-05'
+  link: https://doi.org/10.1609/icwsm.v14i1.7343
+  publisher: International Conference on Web and Social Media
+  title: A Quantitative Approach to Understanding Online Antisemitism
+- authors:
+  - Savvas Zannettou
+  - T. Caulfield
+  - Emiliano De Cristofaro
+  - N. Kourtellis
+  - I. Leontiadis
+  - Michael Sirivianos
+  - G. Stringhini
+  - Jeremy Blackburn
+  date: '2017-05-19'
+  link: https://doi.org/10.1145/3131365.3131390
+  publisher: ACM/SIGCOMM Internet Measurement Conference
+  title: 'The web centipede: understanding how web communities influence each other
+    through the lens of mainstream and alternative news sources'
+- authors:
+  - Despoina Chatzakou
+  - N. Kourtellis
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - G. Stringhini
+  - A. Vakali
+  date: '2017-02-24'
+  link: https://doi.org/10.1145/3041021.3053890
+  publisher: The Web Conference
+  title: 'Measuring #GamerGate: A Tale of Hate, Sexism, and Bullying'
+- authors:
+  - A. Ioannou
+  - Jeremy Blackburn
+  - Gianluca Siringhini
+  - Emiliano de Chrisiofaro
+  - Nicolas Kouriellis
+  - Michael Sirivianos
+  - Panayiotis Zaphiris
+  date: '2017-05-01'
+  link: https://doi.org/10.23919/ISTAFRICA.2017.8102355
+  publisher: IST-Africa Week Conference
+  title: 'From risk factors to detection and intervention: A metareview and practical
+    proposal for research on cyberbullying'
+- authors:
+  - Despoina Chatzakou
+  - N. Kourtellis
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - G. Stringhini
+  - A. Vakali
+  date: '2017-05-09'
+  link: https://doi.org/10.1145/3078714.3078721
+  publisher: ACM Conference on Hypertext & Social Media
+  title: 'Hate is not Binary: Studying Abusive Behavior of #GamerGate on Twitter'
+- authors:
+  - Jay Ligatti
+  - Jeremy Blackburn
+  - M. Nachtigal
+  date: '2017-03-06'
+  link: https://doi.org/10.1145/2994596
+  publisher: ACM Transactions on Programming Languages and Systems
+  title: On Subtyping-Relation Completeness, with an Application to Iso-Recursive
+    Types
+- authors:
+  - Alexandros Mittos
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  date: null
+  link: null
+  publisher: ''
+  title: AQuantitative Study of Twitter Discourse On Genetic Testing
+- authors:
+  - "J. Serr\xE0"
+  - I. Leontiadis
+  - Dimitris Spathis
+  - G. Stringhini
+  - Jeremy Blackburn
+  date: '2017-02-16'
+  link: null
+  publisher: ''
+  title: Class-based Prediction Errors to Categorize Text with Out-of-vocabulary Words
+- authors:
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - Michael Sirivianos
+  - T. Strufe
+  date: null
+  link: https://doi.org/10.4230/DagRep.7.9.47
+  publisher: Dagstuhl Reports
+  title: Cybersafety in Modern Online Social Networks (Dagstuhl Reports 17372)
+- authors:
+  - Despoina Chatzakou
+  - N. Kourtellis
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - G. Stringhini
+  - A. Vakali
+  date: '2017-04-03'
+  link: https://doi.org/10.1145/3041021.3054211
+  publisher: The Web Conference
+  title: Detecting Aggressors and Bullies on Twitter
+- authors:
+  - Despoina Chatzakou
+  - N. Kourtellis
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - G. Stringhini
+  - A. Vakali
+  date: '2017-02-22'
+  link: https://doi.org/10.1145/3091478.3091487
+  publisher: Web Science Conference
+  title: 'Mean Birds: Detecting Aggression and Bullying on Twitter'
+- authors:
+  - Jeremy Blackburn
+  - Emiliano De Cristofaro
+  - Michael Sirivianos
+  - T. Strufe
+  date: null
+  link: null
+  publisher: ''
+  title: Cybersafety in Modern Online Social Networks
+- authors:
+  - Ah Reum Kang
+  - Jeremy Blackburn
+  - Haewoon Kwak
+  - H. Kim
+  date: '2017-03-04'
+  link: https://doi.org/10.1145/3041021.3054174
+  publisher: The Web Conference
+  title: 'I Would Not Plant Apple Trees If the World Will Be Wiped: Analyzing Hundreds
+    of Millions of Behavioral Records of Players During an MMORPG Beta Test'
+- authors:
+  - "J. Serr\xE0"
+  - I. Leontiadis
+  - Dimitris Spathis
+  - G. Stringhini
+  - Jeremy Blackburn
+  - A. Vakali
+  date: '2017-08-04'
+  link: https://doi.org/10.18653/v1/W17-3005
+  publisher: ALW@ACL
+  title: Class-based Prediction Errors to Detect Hate Speech with Out-of-vocabulary
+    Words
+- authors:
+  - Essa Alhazmi
+  - Sameera Horawalavithana
+  - J. Skvoretz
+  - Jeremy Blackburn
+  - A. Iamnitchi
+  date: '2017-07-01'
+  link: https://doi.org/10.1145/3110025.3110094
+  publisher: International Conference on Advances in Social Networks Analysis and
+    Mining
+  title: An Empirical Study on Team Formation in Online Games
+- authors:
+  - "M\xE1rio Almeida"
+  - M. Bilal
+  - Jeremy Blackburn
+  - K. Papagiannaki
+  date: '2016-03-31'
+  link: https://doi.org/10.1007/978-3-319-30505-9_28
+  publisher: Passive and Active Network Measurement Conference
+  title: An Empirical Study of Android Alarm Usage for Application Scheduling
+- authors:
+  - Matteo Varvello
+  - Kyle Schomp
+  - David Naylor
+  - Jeremy Blackburn
+  - A. Finamore
+  - K. Papagiannaki
+  date: '2016-03-31'
+  link: https://doi.org/10.1007/978-3-319-30505-9_17
+  publisher: Passive and Active Network Measurement Conference
+  title: Is the Web HTTP/2 Yet?
+- authors:
+  - Liang Wang
+  - "M\xE1rio Almeida"
+  - Jeremy Blackburn
+  - J. Crowcroft
+  date: '2016-04-05'
+  link: null
+  publisher: ArXiv
+  title: 'C3PO: Computation Congestion Control (PrOactive) - an algorithm for dynamic
+    diffusion of ephemeral in-network services'
+- authors:
+  - G. Hine
+  - J. Onaolapo
+  - Emiliano De Cristofaro
+  - N. Kourtellis
+  - I. Leontiadis
+  - Riginos Samaras
+  - G. Stringhini
+  - Jeremy Blackburn
+  date: '2016-10-11'
+  link: null
+  publisher: ArXiv
+  title: A Longitudinal Measurement Study of 4chan's Politically Incorrect Forum and
+    its Effect on the Web
+- authors:
+  - Jeremy Blackburn
+  date: '2016-10-24'
+  link: https://doi.org/10.1145/3002137.3002141
+  publisher: CyberSafety@CIKM
+  title: Informing Cyberbullying Research with Social/Psychological Insights
+- authors:
+  - Vasiliki Kalavri
+  - Jeremy Blackburn
+  - Matteo Varvello
+  - K. Papagiannaki
+  date: '2016-03-31'
+  link: https://doi.org/10.1007/978-3-319-30505-9_4
+  publisher: Passive and Active Network Measurement Conference
+  title: 'Like a Pack of Wolves: Community Structure of Web Trackers'
+- authors:
+  - Matteo Varvello
+  - Jeremy Blackburn
+  - David Naylor
+  - K. Papagiannaki
+  date: '2016-12-06'
+  link: https://doi.org/10.1145/2999572.2999590
+  publisher: Conference on Emerging Network Experiment and Technology
+  title: 'EYEORG: A Platform For Crowdsourcing Web Quality Of Experience Measurements'
+- authors:
+  - G. Hine
+  - J. Onaolapo
+  - Emiliano De Cristofaro
+  - N. Kourtellis
+  - I. Leontiadis
+  - Riginos Samaras
+  - G. Stringhini
+  - Jeremy Blackburn
+  date: '2016-10-11'
+  link: https://doi.org/10.1609/icwsm.v11i1.14893
+  publisher: International Conference on Web and Social Media
+  title: 'Kek, Cucks, and God Emperor Trump: A Measurement Study of 4chan''s Politically
+    Incorrect Forum and Its Effects on the Web'
+- authors:
+  - Jeremy Blackburn
+  date: '2016-10-24'
+  link: https://doi.org/10.1145/3002137.3002145
+  publisher: CyberSafety@CIKM
+  title: CyberSafety 2016 Panel Discussion
+- authors:
+  - Shivakant Mishra
+  - Q. Lv
+  - Richard O. Han
+  - Jeremy Blackburn
+  date: '2016-10-24'
+  link: https://doi.org/10.1145/2983323.2988541
+  publisher: International Conference on Information and Knowledge Management
+  title: 'CyberSafety 2016: The First International Workshop on Computational Methods
+    in CyberSafety'
+- authors:
+  - Liang Wang
+  - "M\xE1rio Almeida"
+  - Jeremy Blackburn
+  - J. Crowcroft
+  date: '2016-09-26'
+  link: https://doi.org/10.1145/2984356.2988518
+  publisher: Information-Centric Networking
+  title: 'C3PO: Computation Congestion Control (PrOactive)'
+- authors:
+  - Xiang Zuo
+  - Jeremy Blackburn
+  - N. Kourtellis
+  - J. Skvoretz
+  - A. Iamnitchi
+  date: null
+  link: https://doi.org/10.1016/j.comcom.2015.07.013
+  publisher: Computer Communications
+  title: The power of indirect ties
+- authors:
+  - Haewoon Kwak
+  - Jeremy Blackburn
+  - Seungyeop Han
+  date: '2015-04-09'
+  link: https://doi.org/10.1145/2702123.2702529
+  publisher: International Conference on Human Factors in Computing Systems
+  title: Exploring Cyberbullying and Other Toxic Behavior in Team Competition Online
+    Games
+- authors:
+  - Matteo Varvello
+  - Kyle Schomp
+  - David Naylor
+  - Jeremy Blackburn
+  - A. Finamore
+  - K. Papagiannaki
+  date: '2015-07-23'
+  link: null
+  publisher: ArXiv
+  title: To HTTP/2, or Not To HTTP/2, That Is The Question
+- authors:
+  - Fotios Papaodyssefs
+  - Costas Iordanou
+  - Jeremy Blackburn
+  - Nikolaos Laoutaris
+  - K. Papagiannaki
+  date: '2015-11-16'
+  link: https://doi.org/10.1145/2834050.2834105
+  publisher: ACM Workshop on Hot Topics in Networks
+  title: 'Web Identity Translator: Behavioral Advertising and Identity Privacy with
+    WIT'
+- authors:
+  - David Naylor
+  - Kyle Schomp
+  - Matteo Varvello
+  - I. Leontiadis
+  - Jeremy Blackburn
+  - "D. L\xF3pez"
+  - K. Papagiannaki
+  - P. Rodriguez
+  - P. Steenkiste
+  date: '2015-08-17'
+  link: https://doi.org/10.1145/2785956.2787482
+  publisher: Computer communication review
+  title: 'Multi-Context TLS (mcTLS): Enabling Secure In-Network Functionality in TLS'
+- authors:
+  - Xiang Zuo
+  - Jeremy Blackburn
+  - N. Kourtellis
+  - J. Skvoretz
+  - A. Iamnitchi
+  date: '2014-10-23'
+  link: https://doi.org/10.1109/P2P.2014.6934314
+  publisher: 14-th IEEE International Conference on Peer-to-Peer Computing
+  title: The power of indirect ties in friend-to-friend storage systems
+- authors:
+  - Jeremy Blackburn
+  - Haewoon Kwak
+  date: '2014-04-07'
+  link: https://doi.org/10.1145/2566486.2567987
+  publisher: The Web Conference
+  title: 'STFU NOOB!: predicting crowdsourced decisions on toxic behavior in online
+    games'
+- authors:
+  - Jeremy Blackburn
+  date: null
+  link: null
+  publisher: ''
+  title: An Analysis of (Bad) Behavior in Online Video Games
+- authors:
+  - Haewoon Kwak
+  - Jeremy Blackburn
+  date: '2014-10-20'
+  link: https://doi.org/10.1007/978-3-319-15168-7_26
+  publisher: SocInfo Workshops
+  title: Linguistic Analysis of Toxic Behavior in an Online Video Game
+- authors:
+  - Xiang Zuo
+  - Jeremy Blackburn
+  - N. Kourtellis
+  - J. Skvoretz
+  - A. Iamnitchi
+  date: '2014-01-16'
+  link: null
+  publisher: ArXiv
+  title: The power of indirect social ties
+- authors:
+  - Haewoon Kwak
+  - Jeremy Blackburn
+  - H. Kim
+  date: '2014-11-10'
+  link: https://doi.org/10.1007/978-3-319-15168-7_22
+  publisher: SocInfo Workshops
+  title: 'EGG 2014: Exploration on Games and Gamers - Introduction'
+- authors:
+  - Jeremy Blackburn
+  - N. Kourtellis
+  - J. Skvoretz
+  - M. Ripeanu
+  - A. Iamnitchi
+  date: '2014-05-01'
+  link: https://doi.org/10.1145/2602570
+  publisher: TOIT
+  title: 'Cheating in Online Games: A Social Network Perspective'
+- authors:
+  - Xiang Zuo
+  - Jeremy Blackburn
+  - N. Kourtellis
+  - J. Skvoretz
+  - A. Iamnitchi
+  date: '2014-11-11'
+  link: https://doi.org/10.1007/978-3-319-13734-6_4
+  publisher: Social Informatics
+  title: The Influence of Indirect Ties on Social Network Dynamics
+- authors:
+  - Jeremy Blackburn
+  - R. Stanojevic
+  - Vijay Erramilli
+  - A. Iamnitchi
+  - K. Papagiannaki
+  date: '2013-09-30'
+  link: https://doi.org/10.1145/2500423.2500441
+  publisher: ACM/IEEE International Conference on Mobile Computing and Networking
+  title: 'Last call for the buffet: economics of cellular networks'
+- authors:
+  - Jeremy Blackburn
+  - A. Iamnitchi
+  date: '2013-06-09'
+  link: https://doi.org/10.1109/ICCW.2013.6649225
+  publisher: International Conference on Intelligent Cloud Computing
+  title: An architecture for collecting longitudinal social data
+- authors:
+  - Jeremy Blackburn
+  - A. Iamnitchi
+  date: null
+  link: null
+  publisher: ''
+  title: Relationships under the Microscope with Interaction-Backed Social Networks
+- authors:
+  - N. Kourtellis
+  - Jeremy Blackburn
+  - C. Borcea
+  - A. Iamnitchi
+  date: '2012-11-19'
+  link: https://doi.org/10.1145/2700057
+  publisher: ACM Trans. Internet Techn.
+  title: Special Issue on Foundations of Social Computing
+- authors:
+  - Jeremy Blackburn
+  - Ramanuja Simha
+  - N. Kourtellis
+  - Xiang Zuo
+  - M. Ripeanu
+  - J. Skvoretz
+  - A. Iamnitchi
+  date: '2012-04-16'
+  link: https://doi.org/10.1145/2187836.2187848
+  publisher: The Web Conference
+  title: 'Branded with a scarlet "C": cheaters in a gaming social network'
+- authors:
+  - Jeremy Blackburn
+  - Ivory Hernandez
+  - Jay Ligatti
+  - M. Nachtigal
+  date: null
+  link: null
+  publisher: ''
+  title: Completely Subtyping Iso-recursive Types
+- authors:
+  - A. Iamnitchi
+  - Jeremy Blackburn
+  - N. Kourtellis
+  date: '2012-05-01'
+  link: https://doi.org/10.1109/MIC.2012.42
+  publisher: IEEE Internet Computing
+  title: 'The Social Hourglass: An Infrastructure for Socially Aware Applications
+    and Services'
+- authors:
+  - Jeremy Blackburn
+  - Ramanuja Simha
+  - Clayton Long
+  - Xiang Zuo
+  - N. Kourtellis
+  - J. Skvoretz
+  - A. Iamnitchi
+  date: '2011-12-21'
+  link: https://doi.org/10.1145/2160803.2160871
+  publisher: PERV
+  title: Cheaters in a gaming social network
+- authors:
+  - Jeremy Blackburn
+  - N. Kourtellis
+  - A. Iamnitchi
+  date: '2011-04-10'
+  link: https://doi.org/10.1145/1989656.1989663
+  publisher: Workshop on Social Network Systems
+  title: Vulnerability in socially-informed peer-to-peer systems
+- authors:
+  - Jeremy Blackburn
+  - Ramanuja Simha
+  - N. Kourtellis
+  - Xiang Zuo
+  - Clayton Long
+  - M. Ripeanu
+  - J. Skvoretz
+  - A. Iamnitchi
+  date: '2011-12-20'
+  link: null
+  publisher: ArXiv
+  title: Cheaters in the Steam Community Gaming Social Network
+- authors:
+  - Jeremy Blackburn
+  date: null
+  link: null
+  publisher: ''
+  title: Design and Evaluation of a Green BitTorrent for Energy-Efficient Content
+    Distribution
+- authors:
+  - N. Kourtellis
+  - Joshua Finnis
+  - P. Anderson
+  - Jeremy Blackburn
+  - C. Borcea
+  - A. Iamnitchi
+  date: '2010-11-29'
+  link: https://doi.org/10.1007/978-3-642-16955-7_11
+  publisher: International Middleware Conference
+  title: 'Prometheus: User-Controlled P2P Social Data Management for Socially-Aware
+    Applications'
+- authors:
+  - Zach King
+  - Jeremy Blackburn
+  - A. Iamnitchi
+  date: null
+  link: null
+  publisher: ''
+  title: 'BatTorrent: A Battery-Aware BitTorrent for Mobile Devices'
+- authors:
+  - Jeremy Blackburn
+  - K. Christensen
+  date: '2009-06-14'
+  link: https://doi.org/10.1109/ICCW.2009.5208046
+  publisher: 2009 IEEE International Conference on Communications Workshops
+  title: A Simulation Study of a New Green BitTorrent

@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+{% include section.html %}
+
+{{ content }}
+
+{% include section.html %}
+
+{%- include post-nav.html post=page -%}

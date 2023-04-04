@@ -1,0 +1,53 @@
+{%- assign emptyarray = "" | split: "," -%}
+{%- assign awards = site.data[output] | default: emptyarray -%} 
+
+{%- assign award_data = include -%}
+
+<div class="award" data-style="{{ include.style }}">
+  {%- assign award = award_data.award | default: "" -%}
+  {%- assign amount = award_data.amount| default: "" -%}
+  {%- assign start_date = award_data.start_date | default: "" -%}
+  {%- assign end_date = award_data.end_date | default: "" -%}
+  {%- assign role = award_data.role | default: "" -%}
+  <div class="award_text">
+    <div class="award_title">
+      {%- assign link = award_data.link | default: "#" -%}
+      <a href="{{ link }}">
+        {{ award }}
+      </a>
+    </div>
+
+    <div class="award_details">
+      Amount: {{ amount }}
+    </div>
+
+    <div class="award_details">
+    	Award Duration: {{ start_date | start_date: "%b %d %Y" }} - {{ end_date | end_date: "%b %d %Y" }}
+    </div>
+
+    <div class="award_details">
+    	Role: {{ role }}
+    </div>
+
+    {%- assign additional_information = award_data.additional_information | default: "" -%}
+    {%- if additional_information -%}
+	    <div class=award_details>
+	    	Additional Information: <br/>
+	    	{%- for info in additional_information-%}
+	    		{{ info }} <br/>
+	    	{%- endfor -%}
+	    </div>
+	{%- endif -%}
+
+	{%- assign tags = award_data.tags | default: "" -%}
+	{%- if tags -%}
+	  <div class="tags">
+	    {%- for tag in tags -%}
+	      <a>
+	        {{- tag -}}
+	      </a>
+	    {%- endfor -%}
+	  </div>
+	{%- endif -%}
+  </div>
+</div>

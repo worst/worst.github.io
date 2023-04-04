@@ -1,0 +1,41 @@
+{% assign emptyarray = "" | split: "," %}
+
+{% assign id = include.slug | default: include.id | default: "" %}
+{% assign fundings = site.fundings | default: emptyarray %}
+
+{% assign funding = nil %}
+{% for f in fundings %}
+  {% if f.slug == id %}
+    {% assign funding = f %}
+  {% endif %}
+{% endfor %}
+
+<div class="post_excerpt">
+  {% assign title = funding.title | default: "" %}
+  <p>
+    <a href="{{ id | prepend: 'fundings/' | relative_url }}">{{ title }}</a>
+  </p>
+</div>
+
+<!-- {%- assign style = include.style -%}
+<div class="award" data-style=style>
+	<div class="award_text">
+		<div class="award_title">
+		  {% assign title = funding.title | default: "" %}
+		  <a href="{{ id | prepend: 'fundings/' | relative_url }}">
+		    {{ title }}
+		  </a>
+		</div>
+
+		{%- assign tags = funding.tags | default: "" -%}
+		{%- if tags -%}
+	  	<div class="tags">
+	    {%- for tag in tags -%}
+	    	<a class="tag">
+	        {{ tag }}
+	    	</a>
+	    {%- endfor -%}
+		</div>
+		{%- endif -%}
+	</div>
+</div> -->
