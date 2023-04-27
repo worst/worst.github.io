@@ -6,7 +6,7 @@ description: iDRAMA Lab website at Binghamton University
 logo: images/logo.png
 header: images/background.jpg
 footer: images/background.jpg
-baseurl: /
+baseurl: /lab
 # baseurl: /lab-website-template
 
 # site social media and other links
