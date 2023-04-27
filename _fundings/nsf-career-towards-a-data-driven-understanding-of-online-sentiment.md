@@ -45,3 +45,16 @@ Si, Wai Man, Michael Backes, Jeremy Blackburn, Emiliano De Cristofaro, Gianluca 
 
 Shen, Xinyue, Xinlei He, Michael Backes, Jeremy Blackburn, Savvas Zannettou, and Yang Zhang. ["On Xing Tian and the Perseverance of Anti-China Sentiment Online."](https://doi.org/10.1609/icwsm.v16i1.19348) In Proceedings of the International AAAI Conference on Web and Social Media, vol. 16, pp. 944-955. 2022. [PDF](https://arxiv.org/pdf/2204.08935.pdf)
 
+Papasavva, Antonis, Max Aliapoulios, Cameron Ballard, Emiliano De Cristofaro, Gianluca Stringhini, Savvas Zannettou, and Jeremy Blackburn. ["The gospel according to Q: Understanding the QAnon conspiracy from the perspective of canonical information."](https://doi.org/10.1609/icwsm.v16i1.19330) In Proceedings of the International AAAI Conference on Web and Social Media, vol. 16, pp. 735-746. 2022. [PDF](https://arxiv.org/pdf/2101.08750)
+
+Papadamou, Kostantinos, Savvas Zannettou, Jeremy Blackburn, Emiliano De Cristofaro, Gianluca Stringhini, and Michael Sirivianos. ["“It is just a flu”: Assessing the Effect of Watch History on YouTube’s Pseudoscientific Video Recommendations."](https://doi.org/10.1609/icwsm.v16i1.19329) In Proceedings of the international AAAI conference on web and social media, vol. 16, pp. 723-734. 2022. [PDF](https://arxiv.org/pdf/2010.11638)
+
+Saeed, Mohammad Hammas, Shiza Ali, Jeremy Blackburn, Emiliano De Cristofaro, Savvas Zannettou, and Gianluca Stringhini. ["Trollmagnifier: Detecting state-sponsored troll accounts on reddit."](https://doi.org/10.1109/SP46214.2022.9833706) In 2022 IEEE Symposium on Security and Privacy (SP), pp. 2161-2175. IEEE, 2022. [PDF](https://arxiv.org/pdf/2112.00443.pdf)
+
+Wang, Yuping, Savvas Zannettou, Jeremy Blackburn, Barry Bradlyn, Emiliano De Cristofaro, and Gianluca Stringhini. ["A multi-platform analysis of political news discussion and sharing on web communities."](https://doi.org/10.1109/BigData52589.2021.9671843) In 2021 IEEE International Conference on Big Data (Big Data), pp. 1481-1492. IEEE, 2021. [PDF](https://arxiv.org/pdf/2103.03631)
+
+Papadamou, Kostantinos, Savvas Zannettou, Jeremy Blackburn, Emiliano De Cristofaro, Gianluca Stringhini, and Michael Sirivianos. [""How over is it?" Understanding the Incel Community on YouTube."](https://doi.org/10.1145/3479556) Proceedings of the ACM on Human-Computer Interaction 5, no. CSCW2 (2021): 1-25. [PDF](https://arxiv.org/pdf/2001.08293)
+
+Horta Ribeiro, Manoel, Shagun Jhaver, Savvas Zannettou, Jeremy Blackburn, Gianluca Stringhini, Emiliano De Cristofaro, and Robert West. ["Do platform migrations compromise content moderation? evidence from r/the_donald and r/incels."](https://doi.org/10.1145/3476057) Proceedings of the ACM on Human-Computer Interaction 5, no. CSCW2 (2021): 1-24. [PDF](https://arxiv.org/pdf/2010.10397)
+
+Ali, Shiza, Mohammad Hammas Saeed, Esraa Aldreabi, Jeremy Blackburn, Emiliano De Cristofaro, Savvas Zannettou, and Gianluca Stringhini. ["Understanding the effect of deplatforming on social networks."](https://doi.org/10.1145/3447535.3462637) In 13th acm web science conference 2021, pp. 187-195. 2021. [PDF](/papers/deplatforming-websci2021.pdf)
