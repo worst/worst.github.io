@@ -6,7 +6,7 @@ role: pi
 aliases:
   - Jeremy
 links:
-  home-page: https://mrjimmyblack.com/
+  home-page: https://mrjimmyblack.com/jeremy.html
   orcid: 0000-0001-8<!-- 713-9213
   email: upton@ogoode -->.com
   twitter: jhblackb
