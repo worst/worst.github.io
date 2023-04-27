@@ -14,6 +14,9 @@ This [NSF sponsored project](https://www.nsf.gov/awardsearch/showAward?AWD_ID=20
 
 # Highlights
 
+So far, this project has resulted in 11 papers, two of which have won awards.
+While all the research outputs from this project have had impact, there are a few highlights that can help better understand the type of advances we are making.
+
 ## Deplatforming
 
 ![](/images/deplatforming1.png)
