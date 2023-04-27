@@ -10,7 +10,7 @@ tags:
   - NSF
 ---
 
-This [NSF sponsored project](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2046590) is oriented around understanding coded language on social media, explainable systems for rating the sentiment of content, and use and community level modeling of online sentiment.
+This [NSF sponsored project](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2046590) is oriented around understanding coded language on social media, explainable systems for rating the sentiment of content, and user and community level modeling of online sentiment.
 
 # Highlights
 
