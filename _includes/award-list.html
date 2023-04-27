@@ -1,0 +1,72 @@
+{%- assign emptyarray = "" | split: "," -%}
+
+{%- assign data = site.data[include.data] | default: site[include.data] | default: emptyarray -%}
+{%- assign component = include.component | append: ".html" -%}
+
+{%- assign years = data | group_by_exp: "d", "d.start_date | date: '%Y'" | sort: "name" | reverse -%}
+
+{%- for year in years -%}
+	{%- assign items = year.items -%}
+
+	{%- if years.size > 1 -%}
+	  <h3 id="{{ year.name }}">{{ year.name }}</h3>
+	  {%- assign items = items | sort: "date" | reverse -%}
+	{%- endif -%}
+
+	{%- for d in items -%}
+	  {%- assign style = d.style | default: include.style -%}
+	  <div class="award" data-style=style>
+	  {%- assign award = d.award | default: "" -%}
+	  {%- assign amount = d.amount| default: "" -%}
+	  {%- assign start_date = d.start_date | default: "" -%}
+	  {%- assign end_date = d.end_date | default: "" -%}
+	  {%- assign role = d.role | default: "" -%}
+	  <div class="award_text">
+	    <div class="award_title">
+	      {%- assign link = d.link | default: "#" -%}
+	      <a href="{{ link }}">
+	        {{ award }}
+	      </a>
+	      <a href="{{ url | relative_url }}">
+	      	report
+	      </a>
+	    </div>
+
+	    <div class="award_details">
+	      Amount: {{ amount }}
+	    </div>
+
+	    <div class="award_details">
+	    	Award Duration: {{ start_date | start_date: "%b %d %Y" }} - {{ end_date | end_date: "%b %d %Y" }}
+	    </div>
+
+	    <div class="award_details">
+	    	Role: {{ role }}
+	    </div>
+
+	    {%- assign additional_information = d.additional_information -%}
+	    {%- if additional_information -%}
+		    <div class=award_details>
+		    	Additional Information: <br/>
+		    	<ul>
+			    	{%- for info in additional_information-%}
+			    		<li>{{ info }}</li> 
+			    	{%- endfor -%}
+		    	</ul>
+		    </div>
+		{%- endif -%}
+
+		{%- assign tags = d.tags | default: "" -%}
+		{%- if tags -%}
+		  <div class="tags">
+		    {%- for tag in tags -%}
+		      <a class="tag">
+		        {{- tag -}}
+		      </a>
+		    {%- endfor -%}
+		  </div>
+		{%- endif -%}
+	  </div>
+	</div>
+	{%- endfor -%}
+{%- endfor -%}
