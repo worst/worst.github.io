@@ -1,1 +1,0 @@
-initSidebarItems({"enum":[["FaktoryCommand",""]],"struct":[["Ack",""],["Beat",""],["Fail",""],["Fetch",""],["Hello",""]]});

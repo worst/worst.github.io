@@ -1,1 +1,0 @@
-initSidebarItems({"enum":[["UiClientMessage",""]],"fn":[["start",""],["start_peer",""],["start_ui",""]],"struct":[["App",""]],"type":[["UiClientRxChannel",""],["UiClientTxChannel",""]]});

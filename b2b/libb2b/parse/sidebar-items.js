@@ -1,1 +1,0 @@
-initSidebarItems({"enum":[["ParseError",""]],"struct":[["Parse","This struct helps in the construction of commands by providing convience methods for individual frame elements out of a [Bing2BingFrame::Array]"]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["Announce","The `Announce` command is propagated through the network to provide peers knowledge about the network topography. I.e., this is how peers let each other know who they are connected to."]]});

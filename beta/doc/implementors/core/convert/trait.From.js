@@ -1,3 +1,0 @@
-(function() {var implementors = {};
-implementors["faktory_async"] = [{"text":"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.57.0/core/convert/trait.From.html\" title=\"trait core::convert::From\">From</a>&lt;<a class=\"struct\" href=\"https://doc.rust-lang.org/1.57.0/std/io/error/struct.Error.html\" title=\"struct std::io::error::Error\">Error</a>&gt; for <a class=\"enum\" href=\"faktory_async/faktory_codec/enum.FaktoryCodecError.html\" title=\"enum faktory_async::faktory_codec::FaktoryCodecError\">FaktoryCodecError</a>","synthetic":false,"types":["faktory_async::faktory_codec::FaktoryCodecError"]}];
-if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

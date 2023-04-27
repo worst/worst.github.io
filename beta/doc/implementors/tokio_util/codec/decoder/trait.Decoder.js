@@ -1,3 +1,0 @@
-(function() {var implementors = {};
-implementors["faktory_async"] = [{"text":"impl Decoder for <a class=\"struct\" href=\"faktory_async/struct.FaktoryCodec.html\" title=\"struct faktory_async::FaktoryCodec\">FaktoryCodec</a>","synthetic":false,"types":["faktory_async::faktory_codec::FaktoryCodec"]}];
-if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

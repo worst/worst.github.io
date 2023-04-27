@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["PeerMap","A `PeerMap` contains data and functionality related to peers that this peer has initiated connections with. I.e., the peers that this peer can send comands to."],["Shared",""],["State",""]]});
