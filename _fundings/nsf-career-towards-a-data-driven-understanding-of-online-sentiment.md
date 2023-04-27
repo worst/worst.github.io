@@ -16,13 +16,21 @@ This [NSF sponsored project](https://www.nsf.gov/awardsearch/showAward?AWD_ID=20
 
 # Highlights
 
+## Deplatforming
+
+![](images/deplatforming1.png)
+
 One of our more impactful results have been related to deplatforming as a mitigation technique on social media.
 We performed the first large-scale analysis of deplatforming events from the perspective of how the deplatformed communities' reacted.
 Here, we discovered that the communities did not just dissipate into thin air, but instead they created their own, alternative platforms.
 While there _were_ some positive outcomes, e.g., not every member of the community migrated to the new platform, the behavior on the new platform indicates that users showed a significant _increase_ in the type of behavior that got them deplatformed in the first place.
 These results, which we confirmed for communities and users deplatformed from both [Reddit](https://doi.org/10.1145/3476057) and [Twitter](https://doi.org/10.1145/3447535.3462637), have shed new light on the unforeseen consequences of hard moderation strategies and sparked a more nuanced conversation of how to deal with dangerous online behavior.
 
-We also provided one of the first systematic methods for addressing safety concerns of Open Domain Chatbots.
+## Large Language Model Safety
+
+![](images/toxicbuddy1.png)
+
+We provided one of the first systematic methods for addressing safety concerns of Open Domain Chatbots.
 In this [work](https://doi.org/10.1145/3548606.3560599), we explored the consequences of large language model based chatbots' hunger for data.
 In a nutshell, LLMs scale with respect to the data they are trained on, and open domain chatbots make use of this to enable new conversational features that are currently leading to a new understanding of how we interact with computers.
 However, as part of this training data, LLMs are essentially guaranteed to learn from at least _some_ bad content due to their sheer hunger for data.
