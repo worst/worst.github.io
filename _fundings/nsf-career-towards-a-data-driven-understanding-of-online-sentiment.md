@@ -39,6 +39,8 @@ This work, which was published shortly before chatGPT became available to the pu
 
 # Publications
 
+Yudhoatmojo, S. B., E. D. Cristofaro, and J. Blackburn. ["Understanding the Use of e-Prints on Reddit and 4chan's Politically Incorrect Board."](https://doi.org/10.1145/3578503.3583627) In 15th acm web science conference 2023. [PDF](https://arxiv.org/pdf/2111.02455).
+
 Si, Wai Man, Michael Backes, Jeremy Blackburn, Emiliano De Cristofaro, Gianluca Stringhini, Savvas Zannettou, and Yang Zhang. ["Why So Toxic? Measuring and Triggering Toxic Behavior in Open-Domain Chatbots."](https://doi.org/10.1145/3548606.3560599) In Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security, pp. 2659-2673. 2022. [PDF](https://arxiv.org/pdf/2209.03463.pdf)
 
 Shen, Xinyue, Xinlei He, Michael Backes, Jeremy Blackburn, Savvas Zannettou, and Yang Zhang. ["On Xing Tian and the Perseverance of Anti-China Sentiment Online."](https://doi.org/10.1609/icwsm.v16i1.19348) In Proceedings of the International AAAI Conference on Web and Social Media, vol. 16, pp. 944-955. 2022. [PDF](https://arxiv.org/pdf/2204.08935.pdf)
