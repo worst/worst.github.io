@@ -18,7 +18,7 @@ This [NSF sponsored project](https://www.nsf.gov/awardsearch/showAward?AWD_ID=20
 
 ## Deplatforming
 
-![](images/deplatforming1.png)
+![](/images/deplatforming1.png)
 
 One of our more impactful results have been related to deplatforming as a mitigation technique on social media.
 We performed the first large-scale analysis of deplatforming events from the perspective of how the deplatformed communities' reacted.
@@ -28,7 +28,7 @@ These results, which we confirmed for communities and users deplatformed from bo
 
 ## Large Language Model Safety
 
-![](images/toxicbuddy1.png)
+![](/images/toxicbuddy1.png)
 
 We provided one of the first systematic methods for addressing safety concerns of Open Domain Chatbots.
 In this [work](https://doi.org/10.1145/3548606.3560599), we explored the consequences of large language model based chatbots' hunger for data.
