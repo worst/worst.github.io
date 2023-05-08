@@ -101,12 +101,13 @@
 
   {%- assign scholar_key = "google-scholar" | default: "" -%}
   {%- assign type = site.data.links[scholar_key] -%}
-
+<!-- 
   {%- if type -%}
   <b>TEST TEST TEST TEST</b>
+  <span>STUFF: {{site.data.links}}<span>
   {%- else -%}
   <b>FAIL FAIL FAIL</b>
-  {%- endif -%}
+  {%- endif -%} -->
 
   {%- if type and member.links.google_scholar -%}
     {%- assign icon = type.icon -%}
