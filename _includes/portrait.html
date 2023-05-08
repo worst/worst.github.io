@@ -99,10 +99,14 @@
     </span>
   {%- endif -%}
 
-  {%- assign scholar_key = "google_scholar" | default: "" -%}
+  {%- assign scholar_key = "google-scholar" | default: "" -%}
   {%- assign type = site.data.links[scholar_key] -%}
-  <!-- {%- assign link = member.links.twitter -%} -->
-  <!-- {%- include link.html type=twitter_key icon="" text="" tooltip="" link=twitter_value -%} -->
+
+  {%- if type -%}
+  <b>TEST TEST TEST TEST</b>
+  {%- else -%}
+  <b>FAIL FAIL FAIL</b>
+  <%- endif -%>
 
   {%- if type and member.links.google_scholar -%}
     {%- assign icon = type.icon -%}
