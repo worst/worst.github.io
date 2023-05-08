@@ -11,7 +11,7 @@ links:
   email: upton@ogoode -->.com
   twitter: jhblackb
   google-scholar: W_ApnIUAAAAJ
-  cv: https://mrjimmyblack.com/jhb-cv.pdf
+  external: https://mrjimmyblack.com/jhb-cv.pdf
 ---
 
 <!-- Upton is a good dog.

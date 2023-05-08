@@ -98,6 +98,35 @@
       Twitter
     </span>
   {%- endif -%}
+
+  {%- assign scholar_key = "google-scholar" | default: "" -%}
+  {%- assign type = site.data.links[scholar_key] -%}
+  <!-- {%- assign link = member.links.twitter -%} -->
+  <!-- {%- include link.html type=twitter_key icon="" text="" tooltip="" link=twitter_value -%} -->
+
+  {%- if type and member.links.google_scholar -%}
+    {%- assign icon = type.icon -%}
+    {%- assign text = type.text -%}
+    {%- assign tooltip = type.tooltip -%}
+    {%- assign link = type.link | replace: "$LINK", member.links.google_scholar -%}
+
+    <!-- {%- assign flip = include.flip | default: false -%} -->
+    <a class="link" href="{{ link | relative_url }}" {% if tooltip %}data-tooltip="{{ tooltip }}"{% endif %} {% if icon %}data-icon="true"{% endif %} {% if text %}data-text="true"{% endif %} data-style="{{ include.style | default: '' }}">
+      {%- if icon contains "fa-" -%}
+        <i class="{{ icon }} fa-lg {% if text == nil %}fa-fw{% endif %}"></i>
+      {%- elsif icon -%}
+        {% include {{ icon }} %}
+      {%- endif -%}
+      {%- if text -%}
+        <span class="portrait_scholar">{{ text }}</span>
+      {%- endif -%}
+    </a>
+  {%- else -%}
+    <span class="portrait_scholar_disabled">
+      <i class="fab fa-twitter" style="color:#767676"></i>
+      Google Scholar
+    </span>
+  {%- endif -%}
 </span>
 
 {:/}

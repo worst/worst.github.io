@@ -7,7 +7,7 @@ nav:
 
 {% include section.html %}
 
-# <i class="fas fa-user"></i>Head of the Lab
+# <i class="fas fa-user"></i>Principal Investigator
 
 Our lab is lead by Jeremy Blackburn, Assistant Professor of the Department of Computer Science at Binghamton University.
 Check out his official profile on [Binghamton University website](https://www.binghamton.edu/computer-science/people/profile.html?id=jblackbu).
