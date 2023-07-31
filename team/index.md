@@ -9,8 +9,8 @@ nav:
 
 # <i class="fas fa-user"></i>Principal Investigator
 
-Our lab is lead by Jeremy Blackburn, Assistant Professor of the Department of Computer Science at Binghamton University.
-Check out his official profile on [Binghamton University website](https://www.binghamton.edu/computer-science/people/profile.html?id=jblackbu).
+Our lab is lead by [Jeremy Blackburn](https://mrjimmyblack.com/jeremy.html), Associate Professor in the Department of Computer Science at Binghamton University.
+<!-- Check out his official profile on [Binghamton University website](https://www.binghamton.edu/computer-science/people/profile.html?id=jblackbu). -->
 
 
 
