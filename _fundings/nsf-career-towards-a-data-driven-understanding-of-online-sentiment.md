@@ -14,7 +14,7 @@ This [NSF sponsored project](https://www.nsf.gov/awardsearch/showAward?AWD_ID=20
 
 # Highlights
 
-So far, this project has resulted in 12 papers, three of which have won awards.
+So far, this project has resulted in 17 papers, three of which have won awards.
 While all the research outputs from this project have had impact, there are a few highlights that can help better understand the type of advances we are making.
 
 ## Deplatforming
@@ -42,6 +42,11 @@ This work, which was published shortly before chatGPT became available to the pu
 
 # Publications
 
+1. Paudel, Pujan, Jeremy Blackburn, Emiliano De Cristofaro, Savvas Zannettou, and Gianluca Stringhini. ["Lambretta: learning to rank for Twitter soft moderation."](https://doi.org/10.1109/SP46215.2023.10179392) In 2023 IEEE Symposium on Security and Privacy (SP), pp. 311-326. IEEE, 2023. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10179392)
+1. Efstratiou, A., Blackburn, J., Caulfield, T., Stringhini, G., Zannettou, S., & De Cristofaro, E. (2023, June). "[Non-polar opposites: analyzing the relationship between echo chambers and hostile intergroup interactions on Reddit."](https://doi.org/10.1609/icwsm.v17i1.22138) In Proceedings of the International AAAI Conference on Web and Social Media (Vol. 17, pp. 197-208). [PDF](https://ojs.aaai.org/index.php/ICWSM/article/view/22138/21917)
+1. Lin KS, Palumbo G, Guo Z, Hwang Y, Blackburn J, Shoemaker DP, Mahmood F, Wang Z, Fiete GA, Wieder BJ, Bradlyn B. ["Spin-resolved topology and partial axion angles in three-dimensional insulators."](https://doi.org/10.1038/s41467-024-44762-w) Nature communications. 2024 Jan 16;15(1):550. [PDF](https://www.nature.com/articles/s41467-024-44762-w.pdf)
+1. Aldreabi, Esraa, and Jeremy Blackburn. ["Enhancing Automated Hate Speech Detection: Addressing Islamophobia and Freedom of Speech in Online Discussions."](https://doi.org/10.1145/3625007.3627487) Proceedings of the International Conference on Advances in Social Networks Analysis and Mining. 2023.[PDF](https://dl.acm.org/doi/pdf/10.1145/3625007.3627487)
+1. Aldreabi, Esraa, Justin M. Lee, and Jeremy Blackburn. ["Using deep learning to detect islamophobia on Reddit."](https://doi.org/10.32473/flairs.36.133324) The International FLAIRS Conference Proceedings. Vol. 36. 2023. [PDF](https://journals.flvc.org/FLAIRS/article/download/133324/137672)
 1. Balci, Utkucan, Chen Ling, Emiliano De Cristofaro, Megan Squire, Gianluca Stringhini, and Jeremy Blackburn. ["Beyond Fish and Bicycles: Exploring the Varieties of Online Women's Ideological Spaces."](https://doi.org/10.1145/3578503.3583618) In 15th acm web science conference 2023. [PDF](https://arxiv.org/pdf/2303.07099)
 1. 🏆 Yudhoatmojo, S. B., E. D. Cristofaro, and J. Blackburn. ["Understanding the Use of e-Prints on Reddit and 4chan's Politically Incorrect Board."](https://doi.org/10.1145/3578503.3583627) In 15th acm web science conference 2023. [PDF](https://arxiv.org/pdf/2111.02455).
 1. 🏆 Si, Wai Man, Michael Backes, Jeremy Blackburn, Emiliano De Cristofaro, Gianluca Stringhini, Savvas Zannettou, and Yang Zhang. ["Why So Toxic? Measuring and Triggering Toxic Behavior in Open-Domain Chatbots."](https://doi.org/10.1145/3548606.3560599) In Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security, pp. 2659-2673. 2022. [PDF](https://arxiv.org/pdf/2209.03463.pdf)
